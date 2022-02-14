@@ -1,7 +1,8 @@
-// import './App.css';
+import './App.css';
 // Webpack CSS import
-import 'onsenui/css/onsenui.css';
-import 'onsenui/css/onsen-css-components.css';
+// import 'onsenui/css/onsenui.css';
+// import 'onsenui/css/onsen-css-components.css';
+import AntDesignExample from './components/Moment/AntDesign/AntDesignExample';
 // import DatefnsExample from './components/Moment/Datefns/DatefnsExample';
 // import DayjsExample from './components/Moment/Dayjs/DayjsExample';
 // import EmotionExample from './components/Moment/EmotionExample/EmotionExample';
@@ -11,15 +12,16 @@ import 'onsenui/css/onsen-css-components.css';
 // import OnsenUIExample from './components/Moment/OnsenUI/OnsenUIExample';
 // import CheckBoxExample from './components/Moment/OnsenUI/CheckBoxExample';
 // import FabExample from './components/Moment/OnsenUI/FabExample';
-import ListExample from './components/Moment/OnsenUI/ListExample';
-import ProgressExample from './components/Moment/OnsenUI/ProgressExample';
+// import ListExample from './components/Moment/OnsenUI/ListExample';
+// import ProgressExample from './components/Moment/OnsenUI/ProgressExample';
 
 function App() {
   return (
     // <div className="App">
     <div >
-      <ProgressExample />
-      <ListExample />
+      <AntDesignExample />
+      {/* <ProgressExample />
+      <ListExample /> */}
       {/* <CheckBoxExample />
       <FabExample /> */}
       {/* <OnsenUIExample /> */}
